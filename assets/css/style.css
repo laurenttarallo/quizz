@@ -1,0 +1,127 @@
+h1 {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    text-align: center;
+    /* color: #FFFFFF;
+    background: #0e8dbc;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000; */
+}
+
+h2 {
+    color: #FFFFFF;
+    /* text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px; */
+    text-align: center;
+}
+
+h3 {
+    color: #585858;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+p {
+    color: #FFFFFF;
+    text-shadow: rgb(21, 19, 19) 0px 0px 5px, rgb(232, 32, 32) 0px 0px 10px, rgb(196, 58, 58) 0px 0px 15px, #f49765e4 0px 0px 20px, #f75003 0px 0px 30px, #020af7 0px 0px 40px, #0de806 0px 0px 50px, #0de81b 0px 0px 75px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+body {
+    margin: auto;
+    background-image: url(../image/Many-questions-black-and-orange_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 50px;
+}
+
+#card {
+    width: 450px;
+    margin: 0px auto;
+    box-shadow: 0px 5px 20px rgb(251, 165, 7);
+    background-color: #12220290;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#card button:hover {
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    -webkit-box-shadow: 5px 5px 5px 5px white;
+    box-shadow: 5px 5px 5px 5px white;
+
+}
+
+
+#btnContainer {
+    padding: 10px;
+}
+
+.card,
+div {
+    color: #ffff;
+}
+
+.timer {
+    text-align: center;
+    color: rgb(244, 11, 11);
+    text-shadow: none;
+    font-size: 80px;
+    animation-duration: 2s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+#butreset {
+    color:rgb(21, 19, 19);
+    background-color: rgba(235, 116, 52, 0.968);
+    font-size: larger;
+    font-style: italic;
+    }
+
+#butreset a{ 
+    color: rgb(244, 241, 244);
+}
